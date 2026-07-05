@@ -1,0 +1,2791 @@
+[
+    {
+        "id": "b3a00fe3-ab9d-4da2-8ca4-ca8001c34798",
+        "sku": "PROD-101",
+        "name": "Silent Router",
+        "description": "Silent router designed for optimal performance and daily use.",
+        "price": 52.75,
+        "discount_percent": 20.0,
+        "stock": 353,
+        "is_active": true,
+        "rating": 3.6,
+        "tags": [
+            "computing",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/router_1.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 4.3,
+            "height": 14.1,
+            "length": 15.5
+        }
+    },
+    {
+        "id": "bbbc5f22-0d29-453e-a3a4-f22713eeeeb0",
+        "sku": "PROD-102",
+        "name": "Ultra-Slim SSD",
+        "description": "Ultra-Slim ssd designed for optimal performance and daily use.",
+        "price": 349.66,
+        "discount_percent": 50.0,
+        "stock": 198,
+        "is_active": true,
+        "rating": 4.0,
+        "tags": [
+            "audio",
+            "networking"
+        ],
+        "image_url": "https://example.com/images/ssd_2.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 3.4,
+            "height": 8.5,
+            "length": 20.2
+        }
+    },
+    {
+        "id": "2e9baa71-24ad-4e3c-b03c-218e1685bad2",
+        "sku": "PROD-103",
+        "name": "Digital Docking Station",
+        "description": "Digital docking station designed for optimal performance and daily use.",
+        "price": 254.08,
+        "discount_percent": 25.0,
+        "stock": 263,
+        "is_active": true,
+        "rating": 3.2,
+        "tags": [
+            "electronics",
+            "office",
+            "networking",
+            "computing"
+        ],
+        "image_url": "https://example.com/images/docking_station_3.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 17.3,
+            "height": 9.0,
+            "length": 16.5
+        }
+    },
+    {
+        "id": "be57ecda-e97f-44f8-a65e-77268679d7a7",
+        "sku": "PROD-104",
+        "name": "Heavy-Duty Router",
+        "description": "Heavy-Duty router designed for optimal performance and daily use.",
+        "price": 190.17,
+        "discount_percent": 25.0,
+        "stock": 383,
+        "is_active": true,
+        "rating": 3.1,
+        "tags": [
+            "office",
+            "accessories",
+            "storage",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/router_4.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 17.2,
+            "height": 10.9,
+            "length": 16.7
+        }
+    },
+    {
+        "id": "d9450adb-1874-42bc-8304-d92d01d0886f",
+        "sku": "PROD-105",
+        "name": "Silent Docking Station",
+        "description": "Silent docking station designed for optimal performance and daily use.",
+        "price": 406.38,
+        "discount_percent": 10.0,
+        "stock": 373,
+        "is_active": true,
+        "rating": 3.7,
+        "tags": [
+            "gaming",
+            "mobile",
+            "storage"
+        ],
+        "image_url": "https://example.com/images/docking_station_5.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 15.3,
+            "height": 9.0,
+            "length": 24.6
+        }
+    },
+    {
+        "id": "0f18e866-be1a-4902-9918-f9feeeba5a1d",
+        "sku": "PROD-106",
+        "name": "Classic Keyboard",
+        "description": "Classic keyboard designed for optimal performance and daily use.",
+        "price": 212.52,
+        "discount_percent": 50.0,
+        "stock": 189,
+        "is_active": true,
+        "rating": 3.1,
+        "tags": [
+            "gaming",
+            "office",
+            "networking",
+            "computing"
+        ],
+        "image_url": "https://example.com/images/keyboard_6.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 2.2,
+            "height": 14.3,
+            "length": 4.0
+        }
+    },
+    {
+        "id": "e9dd4306-37f6-47aa-9424-8a4a5ec06954",
+        "sku": "PROD-107",
+        "name": "Smart Speaker",
+        "description": "Smart speaker designed for optimal performance and daily use.",
+        "price": 20.88,
+        "discount_percent": 20.0,
+        "stock": 262,
+        "is_active": true,
+        "rating": 4.1,
+        "tags": [
+            "office",
+            "gaming",
+            "accessories"
+        ],
+        "image_url": "https://example.com/images/speaker_7.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 8.3,
+            "height": 1.0,
+            "length": 20.7
+        }
+    },
+    {
+        "id": "42168a2c-84e7-4ee2-8e2d-e044ce67302d",
+        "sku": "PROD-108",
+        "name": "Premium Monitor",
+        "description": "Premium monitor designed for optimal performance and daily use.",
+        "price": 148.97,
+        "discount_percent": 30.0,
+        "stock": 409,
+        "is_active": true,
+        "rating": 3.5,
+        "tags": [
+            "mobile",
+            "office"
+        ],
+        "image_url": "https://example.com/images/monitor_8.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 6.7,
+            "height": 0.7,
+            "length": 9.1
+        }
+    },
+    {
+        "id": "8908944b-e2a7-4f55-b969-b3356c1c2bcb",
+        "sku": "PROD-109",
+        "name": "Digital Speaker",
+        "description": "Digital speaker designed for optimal performance and daily use.",
+        "price": 71.73,
+        "discount_percent": 20.0,
+        "stock": 66,
+        "is_active": true,
+        "rating": 4.3,
+        "tags": [
+            "office",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/speaker_9.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 9.8,
+            "height": 2.8,
+            "length": 2.6
+        }
+    },
+    {
+        "id": "4c7ad989-a70f-4bc7-a373-79dd511daa51",
+        "sku": "PROD-110",
+        "name": "Premium Microphone",
+        "description": "Premium microphone designed for optimal performance and daily use.",
+        "price": 266.36,
+        "discount_percent": 30.0,
+        "stock": 70,
+        "is_active": false,
+        "rating": 3.5,
+        "tags": [
+            "networking",
+            "audio",
+            "office",
+            "electronics"
+        ],
+        "image_url": "https://example.com/images/microphone_10.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 6.5,
+            "height": 9.7,
+            "length": 2.2
+        }
+    },
+    {
+        "id": "8b47272c-66ca-4c03-8a6d-8b79167f8edd",
+        "sku": "PROD-111",
+        "name": "Classic SSD",
+        "description": "Classic ssd designed for optimal performance and daily use.",
+        "price": 89.04,
+        "discount_percent": 0.0,
+        "stock": 182,
+        "is_active": true,
+        "rating": 3.0,
+        "tags": [
+            "computing",
+            "mobile",
+            "peripherals"
+        ],
+        "image_url": "https://example.com/images/ssd_11.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 18.9,
+            "height": 10.5,
+            "length": 11.2
+        }
+    },
+    {
+        "id": "3be0e579-5b64-42ab-b3a7-57fbd1d0ea49",
+        "sku": "PROD-112",
+        "name": "Portable Flash Drive",
+        "description": "Portable flash drive designed for optimal performance and daily use.",
+        "price": 330.49,
+        "discount_percent": 20.0,
+        "stock": 95,
+        "is_active": true,
+        "rating": 4.5,
+        "tags": [
+            "office",
+            "peripherals"
+        ],
+        "image_url": "https://example.com/images/flash_drive_12.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 16.8,
+            "height": 10.4,
+            "length": 7.3
+        }
+    },
+    {
+        "id": "d10dfd63-51dc-4f36-bb12-5be7a2c77217",
+        "sku": "PROD-113",
+        "name": "Ultra-Slim Laptop Stand",
+        "description": "Ultra-Slim laptop stand designed for optimal performance and daily use.",
+        "price": 357.2,
+        "discount_percent": 0.0,
+        "stock": 401,
+        "is_active": true,
+        "rating": 3.5,
+        "tags": [
+            "office",
+            "peripherals",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/laptop_stand_13.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 18.2,
+            "height": 9.7,
+            "length": 17.3
+        }
+    },
+    {
+        "id": "14098b91-097e-4828-82ab-9569796d1d67",
+        "sku": "PROD-114",
+        "name": "Mechanical Charger",
+        "description": "Mechanical charger designed for optimal performance and daily use.",
+        "price": 257.76,
+        "discount_percent": 5.0,
+        "stock": 275,
+        "is_active": true,
+        "rating": 4.1,
+        "tags": [
+            "mobile",
+            "gaming",
+            "peripherals",
+            "electronics"
+        ],
+        "image_url": "https://example.com/images/charger_14.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 10.4,
+            "height": 4.4,
+            "length": 7.1
+        }
+    },
+    {
+        "id": "8f887ced-9bb5-46c8-af19-9802b9d5df0c",
+        "sku": "PROD-115",
+        "name": "Heavy-Duty Charger",
+        "description": "Heavy-Duty charger designed for optimal performance and daily use.",
+        "price": 411.8,
+        "discount_percent": 5.0,
+        "stock": 7,
+        "is_active": true,
+        "rating": 3.3,
+        "tags": [
+            "electronics",
+            "networking",
+            "storage",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/charger_15.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 2.4,
+            "height": 14.7,
+            "length": 7.3
+        }
+    },
+    {
+        "id": "e19aaf8a-e42d-4b71-8bca-865cac2fc752",
+        "sku": "PROD-116",
+        "name": "Silent Laptop Stand",
+        "description": "Silent laptop stand designed for optimal performance and daily use.",
+        "price": 72.9,
+        "discount_percent": 0.0,
+        "stock": 483,
+        "is_active": true,
+        "rating": 4.1,
+        "tags": [
+            "computing",
+            "audio",
+            "storage"
+        ],
+        "image_url": "https://example.com/images/laptop_stand_16.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 15.3,
+            "height": 12.4,
+            "length": 5.8
+        }
+    },
+    {
+        "id": "69390260-e1dc-45c5-b6c2-ab2afa6ffdbe",
+        "sku": "PROD-117",
+        "name": "Ultra-Slim Laptop Stand",
+        "description": "Ultra-Slim laptop stand designed for optimal performance and daily use.",
+        "price": 77.09,
+        "discount_percent": 30.0,
+        "stock": 225,
+        "is_active": true,
+        "rating": 4.6,
+        "tags": [
+            "office",
+            "accessories",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/laptop_stand_17.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 14.8,
+            "height": 1.2,
+            "length": 2.2
+        }
+    },
+    {
+        "id": "dad79ad1-e484-429b-8d7b-c96f330fed5e",
+        "sku": "PROD-118",
+        "name": "Optical Hard Drive",
+        "description": "Optical hard drive designed for optimal performance and daily use.",
+        "price": 328.67,
+        "discount_percent": 20.0,
+        "stock": 339,
+        "is_active": true,
+        "rating": 3.3,
+        "tags": [
+            "peripherals",
+            "storage",
+            "audio",
+            "networking"
+        ],
+        "image_url": "https://example.com/images/hard_drive_18.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 9.9,
+            "height": 4.8,
+            "length": 20.4
+        }
+    },
+    {
+        "id": "74089299-3cef-46e1-8c19-d35337e8dd06",
+        "sku": "PROD-119",
+        "name": "Heavy-Duty Router",
+        "description": "Heavy-Duty router designed for optimal performance and daily use.",
+        "price": 484.03,
+        "discount_percent": 50.0,
+        "stock": 299,
+        "is_active": true,
+        "rating": 4.4,
+        "tags": [
+            "electronics",
+            "computing",
+            "accessories",
+            "audio"
+        ],
+        "image_url": "https://example.com/images/router_19.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 3.2,
+            "height": 8.3,
+            "length": 13.0
+        }
+    },
+    {
+        "id": "a3fc9a3e-67ad-46f7-88f5-fc94a66fed1b",
+        "sku": "PROD-120",
+        "name": "Optical Power Bank",
+        "description": "Optical power bank designed for optimal performance and daily use.",
+        "price": 289.93,
+        "discount_percent": 30.0,
+        "stock": 139,
+        "is_active": true,
+        "rating": 3.1,
+        "tags": [
+            "office",
+            "storage",
+            "computing"
+        ],
+        "image_url": "https://example.com/images/power_bank_20.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 16.3,
+            "height": 11.3,
+            "length": 5.8
+        }
+    },
+    {
+        "id": "29958c08-b215-4cf6-b081-48bce3ac1691",
+        "sku": "PROD-121",
+        "name": "Smart Headset",
+        "description": "Smart headset designed for optimal performance and daily use.",
+        "price": 318.34,
+        "discount_percent": 50.0,
+        "stock": 7,
+        "is_active": true,
+        "rating": 3.9,
+        "tags": [
+            "electronics",
+            "storage",
+            "networking",
+            "computing"
+        ],
+        "image_url": "https://example.com/images/headset_21.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 2.2,
+            "height": 9.6,
+            "length": 11.9
+        }
+    },
+    {
+        "id": "9415f331-5977-4089-9c24-390c46705f89",
+        "sku": "PROD-122",
+        "name": "Gaming Charger",
+        "description": "Gaming charger designed for optimal performance and daily use.",
+        "price": 452.21,
+        "discount_percent": 25.0,
+        "stock": 292,
+        "is_active": true,
+        "rating": 3.0,
+        "tags": [
+            "storage",
+            "audio",
+            "accessories"
+        ],
+        "image_url": "https://example.com/images/charger_22.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 5.4,
+            "height": 14.0,
+            "length": 20.2
+        }
+    },
+    {
+        "id": "10c72492-5463-4ec6-8381-9ecf31d34d9c",
+        "sku": "PROD-123",
+        "name": "Gaming Webcam",
+        "description": "Gaming webcam designed for optimal performance and daily use.",
+        "price": 325.68,
+        "discount_percent": 5.0,
+        "stock": 282,
+        "is_active": true,
+        "rating": 4.2,
+        "tags": [
+            "electronics",
+            "networking",
+            "storage"
+        ],
+        "image_url": "https://example.com/images/webcam_23.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 12.1,
+            "height": 9.3,
+            "length": 9.5
+        }
+    },
+    {
+        "id": "322bb060-a10b-4ee2-97b5-dfda042eb44b",
+        "sku": "PROD-124",
+        "name": "Portable Mouse",
+        "description": "Portable mouse designed for optimal performance and daily use.",
+        "price": 395.27,
+        "discount_percent": 30.0,
+        "stock": 353,
+        "is_active": true,
+        "rating": 4.9,
+        "tags": [
+            "computing",
+            "mobile",
+            "office"
+        ],
+        "image_url": "https://example.com/images/mouse_24.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 2.2,
+            "height": 12.6,
+            "length": 3.1
+        }
+    },
+    {
+        "id": "4794153f-a8ef-4e4a-beb8-7d2701cf793a",
+        "sku": "PROD-125",
+        "name": "Silent Monitor",
+        "description": "Silent monitor designed for optimal performance and daily use.",
+        "price": 137.64,
+        "discount_percent": 50.0,
+        "stock": 458,
+        "is_active": false,
+        "rating": 3.8,
+        "tags": [
+            "computing",
+            "electronics"
+        ],
+        "image_url": "https://example.com/images/monitor_25.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 6.0,
+            "height": 9.6,
+            "length": 23.8
+        }
+    },
+    {
+        "id": "cde4ae58-a632-40d6-a600-843f575bea2e",
+        "sku": "PROD-126",
+        "name": "Premium Webcam",
+        "description": "Premium webcam designed for optimal performance and daily use.",
+        "price": 51.02,
+        "discount_percent": 50.0,
+        "stock": 99,
+        "is_active": false,
+        "rating": 3.5,
+        "tags": [
+            "mobile",
+            "electronics"
+        ],
+        "image_url": "https://example.com/images/webcam_26.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 17.0,
+            "height": 2.7,
+            "length": 6.6
+        }
+    },
+    {
+        "id": "e11e9bc4-d2d2-4ffd-b781-96023e24d3e4",
+        "sku": "PROD-127",
+        "name": "Optical Laptop Stand",
+        "description": "Optical laptop stand designed for optimal performance and daily use.",
+        "price": 493.61,
+        "discount_percent": 25.0,
+        "stock": 194,
+        "is_active": false,
+        "rating": 3.1,
+        "tags": [
+            "networking",
+            "mobile",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/laptop_stand_27.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 9.5,
+            "height": 5.7,
+            "length": 15.5
+        }
+    },
+    {
+        "id": "186bf948-ac49-4237-b885-3e2b1869d5eb",
+        "sku": "PROD-128",
+        "name": "Bluetooth Power Bank",
+        "description": "Bluetooth power bank designed for optimal performance and daily use.",
+        "price": 66.13,
+        "discount_percent": 15.0,
+        "stock": 318,
+        "is_active": false,
+        "rating": 3.3,
+        "tags": [
+            "computing",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/power_bank_28.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 11.7,
+            "height": 12.6,
+            "length": 8.5
+        }
+    },
+    {
+        "id": "eee19604-256a-472a-952b-d58b32d34f2d",
+        "sku": "PROD-129",
+        "name": "Bluetooth Laptop Stand",
+        "description": "Bluetooth laptop stand designed for optimal performance and daily use.",
+        "price": 487.04,
+        "discount_percent": 30.0,
+        "stock": 32,
+        "is_active": false,
+        "rating": 4.5,
+        "tags": [
+            "gaming",
+            "electronics"
+        ],
+        "image_url": "https://example.com/images/laptop_stand_29.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 17.4,
+            "height": 6.1,
+            "length": 19.5
+        }
+    },
+    {
+        "id": "9063910c-6ca8-46fd-b1db-d979c964ef10",
+        "sku": "PROD-130",
+        "name": "RGB Docking Station",
+        "description": "RGB docking station designed for optimal performance and daily use.",
+        "price": 20.73,
+        "discount_percent": 25.0,
+        "stock": 9,
+        "is_active": true,
+        "rating": 4.3,
+        "tags": [
+            "electronics",
+            "office",
+            "audio",
+            "computing"
+        ],
+        "image_url": "https://example.com/images/docking_station_30.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 1.5,
+            "height": 14.3,
+            "length": 20.4
+        }
+    },
+    {
+        "id": "a49a028a-cdd1-4db2-b66b-05e4f2bcddc8",
+        "sku": "PROD-131",
+        "name": "Gaming Speaker",
+        "description": "Gaming speaker designed for optimal performance and daily use.",
+        "price": 418.33,
+        "discount_percent": 30.0,
+        "stock": 299,
+        "is_active": true,
+        "rating": 3.0,
+        "tags": [
+            "networking",
+            "gaming",
+            "storage",
+            "electronics"
+        ],
+        "image_url": "https://example.com/images/speaker_31.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 19.1,
+            "height": 11.0,
+            "length": 16.3
+        }
+    },
+    {
+        "id": "e0c16ce4-cb61-49fd-9502-7163abff6f4a",
+        "sku": "PROD-132",
+        "name": "Digital Charger",
+        "description": "Digital charger designed for optimal performance and daily use.",
+        "price": 247.76,
+        "discount_percent": 30.0,
+        "stock": 227,
+        "is_active": true,
+        "rating": 3.9,
+        "tags": [
+            "accessories",
+            "electronics",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/charger_32.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 10.8,
+            "height": 2.2,
+            "length": 15.6
+        }
+    },
+    {
+        "id": "059d0083-6758-4279-bb93-1b6a1ff30232",
+        "sku": "PROD-133",
+        "name": "Optical Power Bank",
+        "description": "Optical power bank designed for optimal performance and daily use.",
+        "price": 253.35,
+        "discount_percent": 10.0,
+        "stock": 166,
+        "is_active": true,
+        "rating": 3.9,
+        "tags": [
+            "storage",
+            "mobile",
+            "audio",
+            "office"
+        ],
+        "image_url": "https://example.com/images/power_bank_33.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 11.3,
+            "height": 14.4,
+            "length": 7.5
+        }
+    },
+    {
+        "id": "bc307cb0-4a7c-43f7-8288-6e5d2183f8c4",
+        "sku": "PROD-134",
+        "name": "Gaming Monitor",
+        "description": "Gaming monitor designed for optimal performance and daily use.",
+        "price": 485.97,
+        "discount_percent": 50.0,
+        "stock": 341,
+        "is_active": false,
+        "rating": 3.6,
+        "tags": [
+            "storage",
+            "computing",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/monitor_34.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 11.6,
+            "height": 5.0,
+            "length": 2.4
+        }
+    },
+    {
+        "id": "f894e78a-8e6d-46db-b4a2-a2041c418efd",
+        "sku": "PROD-135",
+        "name": "Classic Docking Station",
+        "description": "Classic docking station designed for optimal performance and daily use.",
+        "price": 313.66,
+        "discount_percent": 10.0,
+        "stock": 340,
+        "is_active": true,
+        "rating": 3.1,
+        "tags": [
+            "mobile",
+            "office",
+            "networking",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/docking_station_35.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 19.3,
+            "height": 10.5,
+            "length": 23.2
+        }
+    },
+    {
+        "id": "9f51bae0-fd7c-478d-941f-4751f18b2119",
+        "sku": "PROD-136",
+        "name": "Classic Router",
+        "description": "Classic router designed for optimal performance and daily use.",
+        "price": 271.49,
+        "discount_percent": 0.0,
+        "stock": 194,
+        "is_active": true,
+        "rating": 3.8,
+        "tags": [
+            "electronics",
+            "mobile",
+            "peripherals",
+            "office"
+        ],
+        "image_url": "https://example.com/images/router_36.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 9.2,
+            "height": 11.6,
+            "length": 15.5
+        }
+    },
+    {
+        "id": "167bb8b4-cda5-46fd-8354-9ed42a8bf0e6",
+        "sku": "PROD-137",
+        "name": "Compact Router",
+        "description": "Compact router designed for optimal performance and daily use.",
+        "price": 79.2,
+        "discount_percent": 30.0,
+        "stock": 264,
+        "is_active": true,
+        "rating": 4.6,
+        "tags": [
+            "audio",
+            "gaming",
+            "office"
+        ],
+        "image_url": "https://example.com/images/router_37.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 2.0,
+            "height": 11.5,
+            "length": 6.4
+        }
+    },
+    {
+        "id": "f29023e8-6b1e-4996-925a-8a6b8994f02a",
+        "sku": "PROD-138",
+        "name": "Heavy-Duty SSD",
+        "description": "Heavy-Duty ssd designed for optimal performance and daily use.",
+        "price": 494.87,
+        "discount_percent": 50.0,
+        "stock": 280,
+        "is_active": true,
+        "rating": 4.5,
+        "tags": [
+            "mobile",
+            "electronics",
+            "accessories"
+        ],
+        "image_url": "https://example.com/images/ssd_38.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 5.9,
+            "height": 11.2,
+            "length": 11.4
+        }
+    },
+    {
+        "id": "1302f446-ff66-4d70-9046-3c44d72e6872",
+        "sku": "PROD-139",
+        "name": "Ultra-Slim Hard Drive",
+        "description": "Ultra-Slim hard drive designed for optimal performance and daily use.",
+        "price": 390.89,
+        "discount_percent": 0.0,
+        "stock": 239,
+        "is_active": true,
+        "rating": 3.1,
+        "tags": [
+            "mobile",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/hard_drive_39.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 19.2,
+            "height": 10.0,
+            "length": 3.3
+        }
+    },
+    {
+        "id": "321fb3f7-0de9-4bfe-9464-ca5a2e456918",
+        "sku": "PROD-140",
+        "name": "Smart Monitor",
+        "description": "Smart monitor designed for optimal performance and daily use.",
+        "price": 451.45,
+        "discount_percent": 0.0,
+        "stock": 285,
+        "is_active": true,
+        "rating": 4.5,
+        "tags": [
+            "networking",
+            "storage",
+            "computing",
+            "electronics"
+        ],
+        "image_url": "https://example.com/images/monitor_40.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 16.2,
+            "height": 10.1,
+            "length": 5.9
+        }
+    },
+    {
+        "id": "54809148-3e7f-4a67-b758-d4907eb26314",
+        "sku": "PROD-141",
+        "name": "Portable Docking Station",
+        "description": "Portable docking station designed for optimal performance and daily use.",
+        "price": 477.53,
+        "discount_percent": 5.0,
+        "stock": 480,
+        "is_active": true,
+        "rating": 3.7,
+        "tags": [
+            "peripherals",
+            "electronics"
+        ],
+        "image_url": "https://example.com/images/docking_station_41.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 4.7,
+            "height": 10.9,
+            "length": 17.7
+        }
+    },
+    {
+        "id": "03e602a6-8fbb-448c-909f-23b02b631b93",
+        "sku": "PROD-142",
+        "name": "Digital Monitor",
+        "description": "Digital monitor designed for optimal performance and daily use.",
+        "price": 178.83,
+        "discount_percent": 20.0,
+        "stock": 39,
+        "is_active": false,
+        "rating": 3.6,
+        "tags": [
+            "storage",
+            "audio",
+            "peripherals"
+        ],
+        "image_url": "https://example.com/images/monitor_42.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 15.0,
+            "height": 14.3,
+            "length": 23.9
+        }
+    },
+    {
+        "id": "46f0e542-54d0-4804-b9be-5b08b5c87552",
+        "sku": "PROD-143",
+        "name": "Premium Router",
+        "description": "Premium router designed for optimal performance and daily use.",
+        "price": 317.1,
+        "discount_percent": 5.0,
+        "stock": 62,
+        "is_active": true,
+        "rating": 3.7,
+        "tags": [
+            "storage",
+            "computing",
+            "office"
+        ],
+        "image_url": "https://example.com/images/router_43.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 14.0,
+            "height": 14.7,
+            "length": 10.1
+        }
+    },
+    {
+        "id": "59246974-71c3-415f-b98c-044373ee14fc",
+        "sku": "PROD-144",
+        "name": "Ergonomic Headset",
+        "description": "Ergonomic headset designed for optimal performance and daily use.",
+        "price": 393.9,
+        "discount_percent": 30.0,
+        "stock": 85,
+        "is_active": true,
+        "rating": 3.5,
+        "tags": [
+            "networking",
+            "accessories"
+        ],
+        "image_url": "https://example.com/images/headset_44.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 8.6,
+            "height": 5.1,
+            "length": 21.4
+        }
+    },
+    {
+        "id": "3069fbb3-3186-401f-9cfb-efda41227051",
+        "sku": "PROD-145",
+        "name": "Ultra-Slim Stylus",
+        "description": "Ultra-Slim stylus designed for optimal performance and daily use.",
+        "price": 139.8,
+        "discount_percent": 30.0,
+        "stock": 470,
+        "is_active": true,
+        "rating": 4.0,
+        "tags": [
+            "electronics",
+            "peripherals",
+            "networking",
+            "storage"
+        ],
+        "image_url": "https://example.com/images/stylus_45.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 4.1,
+            "height": 9.6,
+            "length": 18.2
+        }
+    },
+    {
+        "id": "99b9ecb6-5282-4140-a69e-77927f408fd7",
+        "sku": "PROD-146",
+        "name": "Digital Power Bank",
+        "description": "Digital power bank designed for optimal performance and daily use.",
+        "price": 279.62,
+        "discount_percent": 5.0,
+        "stock": 232,
+        "is_active": false,
+        "rating": 3.9,
+        "tags": [
+            "mobile",
+            "audio"
+        ],
+        "image_url": "https://example.com/images/power_bank_46.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 19.9,
+            "height": 2.0,
+            "length": 21.5
+        }
+    },
+    {
+        "id": "95bdc1ee-4681-425f-9be4-33219f9fa36e",
+        "sku": "PROD-147",
+        "name": "Digital Charger",
+        "description": "Digital charger designed for optimal performance and daily use.",
+        "price": 166.07,
+        "discount_percent": 50.0,
+        "stock": 220,
+        "is_active": true,
+        "rating": 3.1,
+        "tags": [
+            "accessories",
+            "office",
+            "networking"
+        ],
+        "image_url": "https://example.com/images/charger_47.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 1.1,
+            "height": 10.6,
+            "length": 12.0
+        }
+    },
+    {
+        "id": "2eb49d5b-a4b9-4457-9b27-4760b29f6ef2",
+        "sku": "PROD-148",
+        "name": "Wireless Monitor",
+        "description": "Wireless monitor designed for optimal performance and daily use.",
+        "price": 162.53,
+        "discount_percent": 15.0,
+        "stock": 356,
+        "is_active": true,
+        "rating": 3.3,
+        "tags": [
+            "peripherals",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/monitor_48.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 8.7,
+            "height": 10.1,
+            "length": 12.6
+        }
+    },
+    {
+        "id": "2e281c14-801f-44dc-aaf7-af8b2260013b",
+        "sku": "PROD-149",
+        "name": "Optical Hard Drive",
+        "description": "Optical hard drive designed for optimal performance and daily use.",
+        "price": 399.64,
+        "discount_percent": 0.0,
+        "stock": 73,
+        "is_active": true,
+        "rating": 4.1,
+        "tags": [
+            "audio",
+            "mobile",
+            "electronics"
+        ],
+        "image_url": "https://example.com/images/hard_drive_49.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 2.9,
+            "height": 9.6,
+            "length": 23.1
+        }
+    },
+    {
+        "id": "1f04b146-2554-4e25-b035-50fc3bb94619",
+        "sku": "PROD-150",
+        "name": "Compact Router",
+        "description": "Compact router designed for optimal performance and daily use.",
+        "price": 127.62,
+        "discount_percent": 25.0,
+        "stock": 111,
+        "is_active": true,
+        "rating": 4.4,
+        "tags": [
+            "computing",
+            "audio"
+        ],
+        "image_url": "https://example.com/images/router_50.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 17.5,
+            "height": 5.1,
+            "length": 15.4
+        }
+    },
+    {
+        "id": "ff9ccc82-6132-4b54-9386-f89a0d663f0e",
+        "sku": "PROD-151",
+        "name": "Heavy-Duty Power Bank",
+        "description": "Heavy-Duty power bank designed for optimal performance and daily use.",
+        "price": 112.59,
+        "discount_percent": 20.0,
+        "stock": 495,
+        "is_active": false,
+        "rating": 3.0,
+        "tags": [
+            "peripherals",
+            "computing"
+        ],
+        "image_url": "https://example.com/images/power_bank_51.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 19.3,
+            "height": 0.5,
+            "length": 12.3
+        }
+    },
+    {
+        "id": "2e24b45e-f18f-4a29-b7b5-b6d50c33aa7f",
+        "sku": "PROD-152",
+        "name": "Classic Microphone",
+        "description": "Classic microphone designed for optimal performance and daily use.",
+        "price": 432.41,
+        "discount_percent": 15.0,
+        "stock": 448,
+        "is_active": true,
+        "rating": 3.9,
+        "tags": [
+            "peripherals",
+            "computing",
+            "audio"
+        ],
+        "image_url": "https://example.com/images/microphone_52.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 5.2,
+            "height": 6.7,
+            "length": 23.1
+        }
+    },
+    {
+        "id": "0ff8b1cc-5ee9-4eda-802f-9e24ac2d17f1",
+        "sku": "PROD-153",
+        "name": "Bluetooth SSD",
+        "description": "Bluetooth ssd designed for optimal performance and daily use.",
+        "price": 455.14,
+        "discount_percent": 15.0,
+        "stock": 492,
+        "is_active": true,
+        "rating": 3.6,
+        "tags": [
+            "mobile",
+            "peripherals",
+            "electronics"
+        ],
+        "image_url": "https://example.com/images/ssd_53.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 1.5,
+            "height": 4.3,
+            "length": 5.8
+        }
+    },
+    {
+        "id": "bcfd3252-9510-49f1-8954-10408e2a8336",
+        "sku": "PROD-154",
+        "name": "Ergonomic SSD",
+        "description": "Ergonomic ssd designed for optimal performance and daily use.",
+        "price": 304.5,
+        "discount_percent": 20.0,
+        "stock": 317,
+        "is_active": true,
+        "rating": 3.4,
+        "tags": [
+            "audio",
+            "accessories"
+        ],
+        "image_url": "https://example.com/images/ssd_54.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 2.3,
+            "height": 4.6,
+            "length": 20.6
+        }
+    },
+    {
+        "id": "9f81b4f3-11d8-4180-937b-4cdcef8427ce",
+        "sku": "PROD-155",
+        "name": "Optical Monitor",
+        "description": "Optical monitor designed for optimal performance and daily use.",
+        "price": 29.46,
+        "discount_percent": 15.0,
+        "stock": 374,
+        "is_active": true,
+        "rating": 3.1,
+        "tags": [
+            "audio",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/monitor_55.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 2.7,
+            "height": 1.7,
+            "length": 20.7
+        }
+    },
+    {
+        "id": "b3aaaf05-b848-4dd4-8582-3e4af8177f0b",
+        "sku": "PROD-156",
+        "name": "Portable Flash Drive",
+        "description": "Portable flash drive designed for optimal performance and daily use.",
+        "price": 154.81,
+        "discount_percent": 5.0,
+        "stock": 129,
+        "is_active": true,
+        "rating": 4.5,
+        "tags": [
+            "accessories",
+            "electronics",
+            "gaming",
+            "storage"
+        ],
+        "image_url": "https://example.com/images/flash_drive_56.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 8.7,
+            "height": 6.0,
+            "length": 8.6
+        }
+    },
+    {
+        "id": "b3bb4868-7a0c-4819-9d97-c80e2eac8693",
+        "sku": "PROD-157",
+        "name": "Silent Flash Drive",
+        "description": "Silent flash drive designed for optimal performance and daily use.",
+        "price": 461.07,
+        "discount_percent": 20.0,
+        "stock": 235,
+        "is_active": true,
+        "rating": 4.8,
+        "tags": [
+            "mobile",
+            "networking",
+            "storage",
+            "electronics"
+        ],
+        "image_url": "https://example.com/images/flash_drive_57.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 13.9,
+            "height": 1.5,
+            "length": 15.4
+        }
+    },
+    {
+        "id": "a2acc8bf-c5f6-4a0c-9d1c-d484a13879d8",
+        "sku": "PROD-158",
+        "name": "Optical Flash Drive",
+        "description": "Optical flash drive designed for optimal performance and daily use.",
+        "price": 363.91,
+        "discount_percent": 15.0,
+        "stock": 256,
+        "is_active": true,
+        "rating": 4.4,
+        "tags": [
+            "electronics",
+            "storage",
+            "computing",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/flash_drive_58.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 3.4,
+            "height": 5.8,
+            "length": 14.0
+        }
+    },
+    {
+        "id": "243c0487-d2ae-46f1-afa0-4c90e81a46eb",
+        "sku": "PROD-159",
+        "name": "Mechanical Power Bank",
+        "description": "Mechanical power bank designed for optimal performance and daily use.",
+        "price": 14.41,
+        "discount_percent": 50.0,
+        "stock": 2,
+        "is_active": true,
+        "rating": 3.4,
+        "tags": [
+            "electronics",
+            "accessories",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/power_bank_59.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 13.6,
+            "height": 5.6,
+            "length": 14.9
+        }
+    },
+    {
+        "id": "89afb948-f857-43e2-ba0b-d0328ae12f97",
+        "sku": "PROD-160",
+        "name": "Digital Charger",
+        "description": "Digital charger designed for optimal performance and daily use.",
+        "price": 111.56,
+        "discount_percent": 10.0,
+        "stock": 234,
+        "is_active": true,
+        "rating": 3.1,
+        "tags": [
+            "gaming",
+            "office",
+            "computing"
+        ],
+        "image_url": "https://example.com/images/charger_60.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 10.4,
+            "height": 12.3,
+            "length": 15.4
+        }
+    },
+    {
+        "id": "1e932269-254d-497d-9380-59ee49f9c86a",
+        "sku": "PROD-161",
+        "name": "Wireless Router",
+        "description": "Wireless router designed for optimal performance and daily use.",
+        "price": 169.0,
+        "discount_percent": 20.0,
+        "stock": 203,
+        "is_active": true,
+        "rating": 3.5,
+        "tags": [
+            "mobile",
+            "audio"
+        ],
+        "image_url": "https://example.com/images/router_61.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 10.9,
+            "height": 4.7,
+            "length": 23.2
+        }
+    },
+    {
+        "id": "6404996c-22e2-413c-9c9d-8c70ecc992df",
+        "sku": "PROD-162",
+        "name": "Portable Microphone",
+        "description": "Portable microphone designed for optimal performance and daily use.",
+        "price": 476.07,
+        "discount_percent": 5.0,
+        "stock": 118,
+        "is_active": false,
+        "rating": 4.8,
+        "tags": [
+            "storage",
+            "electronics",
+            "peripherals"
+        ],
+        "image_url": "https://example.com/images/microphone_62.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 15.8,
+            "height": 8.5,
+            "length": 3.2
+        }
+    },
+    {
+        "id": "43a1a28e-b496-4511-bbca-c7041d51ed79",
+        "sku": "PROD-163",
+        "name": "Compact Headset",
+        "description": "Compact headset designed for optimal performance and daily use.",
+        "price": 153.47,
+        "discount_percent": 20.0,
+        "stock": 223,
+        "is_active": false,
+        "rating": 4.1,
+        "tags": [
+            "audio",
+            "networking",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/headset_63.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 7.9,
+            "height": 12.6,
+            "length": 18.7
+        }
+    },
+    {
+        "id": "fc2e58c9-bb74-4374-aa7b-9aba94322ff1",
+        "sku": "PROD-164",
+        "name": "Classic Stylus",
+        "description": "Classic stylus designed for optimal performance and daily use.",
+        "price": 424.39,
+        "discount_percent": 25.0,
+        "stock": 461,
+        "is_active": true,
+        "rating": 4.2,
+        "tags": [
+            "storage",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/stylus_64.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 15.9,
+            "height": 13.8,
+            "length": 13.4
+        }
+    },
+    {
+        "id": "f1d542b1-ce65-46cc-bddc-98e2ae7435f0",
+        "sku": "PROD-165",
+        "name": "Classic Laptop Stand",
+        "description": "Classic laptop stand designed for optimal performance and daily use.",
+        "price": 356.83,
+        "discount_percent": 15.0,
+        "stock": 242,
+        "is_active": true,
+        "rating": 3.2,
+        "tags": [
+            "gaming",
+            "mobile",
+            "audio",
+            "computing"
+        ],
+        "image_url": "https://example.com/images/laptop_stand_65.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 7.6,
+            "height": 3.5,
+            "length": 20.2
+        }
+    },
+    {
+        "id": "83b866df-54e4-4dc9-81b7-f64e10ff1001",
+        "sku": "PROD-166",
+        "name": "Classic Monitor",
+        "description": "Classic monitor designed for optimal performance and daily use.",
+        "price": 151.88,
+        "discount_percent": 15.0,
+        "stock": 75,
+        "is_active": true,
+        "rating": 4.1,
+        "tags": [
+            "office",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/monitor_66.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 3.6,
+            "height": 6.1,
+            "length": 11.4
+        }
+    },
+    {
+        "id": "04e8962d-7fad-4826-8d34-cae52bb39811",
+        "sku": "PROD-167",
+        "name": "Silent Flash Drive",
+        "description": "Silent flash drive designed for optimal performance and daily use.",
+        "price": 296.6,
+        "discount_percent": 10.0,
+        "stock": 91,
+        "is_active": true,
+        "rating": 3.8,
+        "tags": [
+            "networking",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/flash_drive_67.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 10.3,
+            "height": 1.4,
+            "length": 2.0
+        }
+    },
+    {
+        "id": "744b097a-0967-495e-ac89-aa30ce04d6f3",
+        "sku": "PROD-168",
+        "name": "RGB Flash Drive",
+        "description": "RGB flash drive designed for optimal performance and daily use.",
+        "price": 245.87,
+        "discount_percent": 5.0,
+        "stock": 305,
+        "is_active": true,
+        "rating": 4.5,
+        "tags": [
+            "office",
+            "accessories"
+        ],
+        "image_url": "https://example.com/images/flash_drive_68.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 18.9,
+            "height": 13.6,
+            "length": 5.0
+        }
+    },
+    {
+        "id": "1796cafe-563b-452c-a2fb-efa7e226ff76",
+        "sku": "PROD-169",
+        "name": "Compact Docking Station",
+        "description": "Compact docking station designed for optimal performance and daily use.",
+        "price": 367.34,
+        "discount_percent": 0.0,
+        "stock": 137,
+        "is_active": true,
+        "rating": 4.4,
+        "tags": [
+            "accessories",
+            "office"
+        ],
+        "image_url": "https://example.com/images/docking_station_69.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 18.5,
+            "height": 1.4,
+            "length": 21.7
+        }
+    },
+    {
+        "id": "a8a61bda-446c-4d76-85b5-860b3b77c49a",
+        "sku": "PROD-170",
+        "name": "Wireless Router",
+        "description": "Wireless router designed for optimal performance and daily use.",
+        "price": 261.78,
+        "discount_percent": 10.0,
+        "stock": 107,
+        "is_active": true,
+        "rating": 4.1,
+        "tags": [
+            "mobile",
+            "accessories"
+        ],
+        "image_url": "https://example.com/images/router_70.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 6.8,
+            "height": 9.7,
+            "length": 14.5
+        }
+    },
+    {
+        "id": "c8a8fe1e-8cb1-4291-8696-b4b3528ab32d",
+        "sku": "PROD-171",
+        "name": "Portable Mouse",
+        "description": "Portable mouse designed for optimal performance and daily use.",
+        "price": 443.1,
+        "discount_percent": 15.0,
+        "stock": 449,
+        "is_active": true,
+        "rating": 3.8,
+        "tags": [
+            "networking",
+            "electronics",
+            "computing",
+            "office"
+        ],
+        "image_url": "https://example.com/images/mouse_71.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 13.0,
+            "height": 3.3,
+            "length": 9.9
+        }
+    },
+    {
+        "id": "ec99d067-ac6b-480f-a92b-309a210e0905",
+        "sku": "PROD-172",
+        "name": "Optical Laptop Stand",
+        "description": "Optical laptop stand designed for optimal performance and daily use.",
+        "price": 25.63,
+        "discount_percent": 25.0,
+        "stock": 105,
+        "is_active": true,
+        "rating": 4.1,
+        "tags": [
+            "accessories",
+            "peripherals"
+        ],
+        "image_url": "https://example.com/images/laptop_stand_72.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 15.2,
+            "height": 6.6,
+            "length": 2.5
+        }
+    },
+    {
+        "id": "6cdc5a76-ef4b-410e-a751-24c54330cb90",
+        "sku": "PROD-173",
+        "name": "Heavy-Duty Webcam",
+        "description": "Heavy-Duty webcam designed for optimal performance and daily use.",
+        "price": 244.17,
+        "discount_percent": 50.0,
+        "stock": 488,
+        "is_active": false,
+        "rating": 3.6,
+        "tags": [
+            "electronics",
+            "gaming",
+            "peripherals",
+            "accessories"
+        ],
+        "image_url": "https://example.com/images/webcam_73.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 2.3,
+            "height": 4.1,
+            "length": 9.9
+        }
+    },
+    {
+        "id": "ddcd4180-d10c-4103-b882-260f6753be92",
+        "sku": "PROD-174",
+        "name": "Silent Power Bank",
+        "description": "Silent power bank designed for optimal performance and daily use.",
+        "price": 207.19,
+        "discount_percent": 20.0,
+        "stock": 398,
+        "is_active": false,
+        "rating": 4.6,
+        "tags": [
+            "electronics",
+            "computing",
+            "networking",
+            "audio"
+        ],
+        "image_url": "https://example.com/images/power_bank_74.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 10.4,
+            "height": 1.8,
+            "length": 6.8
+        }
+    },
+    {
+        "id": "9ccfac4c-6f19-4553-a844-303fdda423a1",
+        "sku": "PROD-175",
+        "name": "Heavy-Duty Stylus",
+        "description": "Heavy-Duty stylus designed for optimal performance and daily use.",
+        "price": 240.77,
+        "discount_percent": 5.0,
+        "stock": 367,
+        "is_active": false,
+        "rating": 4.4,
+        "tags": [
+            "accessories",
+            "peripherals"
+        ],
+        "image_url": "https://example.com/images/stylus_75.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 3.3,
+            "height": 8.3,
+            "length": 11.7
+        }
+    },
+    {
+        "id": "cc315524-4ab5-4b9a-8d6e-b29f0c5c80f4",
+        "sku": "PROD-176",
+        "name": "RGB Hard Drive",
+        "description": "RGB hard drive designed for optimal performance and daily use.",
+        "price": 195.27,
+        "discount_percent": 15.0,
+        "stock": 270,
+        "is_active": false,
+        "rating": 3.8,
+        "tags": [
+            "audio",
+            "electronics",
+            "accessories"
+        ],
+        "image_url": "https://example.com/images/hard_drive_76.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 12.6,
+            "height": 5.2,
+            "length": 21.2
+        }
+    },
+    {
+        "id": "76eb8226-7f3d-46c9-8c8c-308b5a87e3e7",
+        "sku": "PROD-177",
+        "name": "Wireless Headset",
+        "description": "Wireless headset designed for optimal performance and daily use.",
+        "price": 460.71,
+        "discount_percent": 50.0,
+        "stock": 268,
+        "is_active": true,
+        "rating": 3.2,
+        "tags": [
+            "gaming",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/headset_77.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 9.0,
+            "height": 7.2,
+            "length": 10.1
+        }
+    },
+    {
+        "id": "309f5a8e-b474-482e-b1e3-744ce78c0dd2",
+        "sku": "PROD-178",
+        "name": "Classic SSD",
+        "description": "Classic ssd designed for optimal performance and daily use.",
+        "price": 379.27,
+        "discount_percent": 10.0,
+        "stock": 54,
+        "is_active": true,
+        "rating": 3.1,
+        "tags": [
+            "office",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/ssd_78.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 6.0,
+            "height": 5.3,
+            "length": 2.6
+        }
+    },
+    {
+        "id": "09eeaf33-7e64-44e4-ab8b-d550a1ca2691",
+        "sku": "PROD-179",
+        "name": "RGB Monitor",
+        "description": "RGB monitor designed for optimal performance and daily use.",
+        "price": 374.59,
+        "discount_percent": 0.0,
+        "stock": 31,
+        "is_active": true,
+        "rating": 4.9,
+        "tags": [
+            "computing",
+            "storage",
+            "gaming",
+            "accessories"
+        ],
+        "image_url": "https://example.com/images/monitor_79.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 16.0,
+            "height": 5.4,
+            "length": 21.0
+        }
+    },
+    {
+        "id": "910e8563-39b5-4fa1-a3f9-91f214bdfcd5",
+        "sku": "PROD-180",
+        "name": "Wireless Monitor",
+        "description": "Wireless monitor designed for optimal performance and daily use.",
+        "price": 29.97,
+        "discount_percent": 10.0,
+        "stock": 311,
+        "is_active": true,
+        "rating": 3.9,
+        "tags": [
+            "mobile",
+            "office"
+        ],
+        "image_url": "https://example.com/images/monitor_80.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 2.2,
+            "height": 12.1,
+            "length": 21.4
+        }
+    },
+    {
+        "id": "1de257b5-afc9-4615-aa5b-daa131d6429a",
+        "sku": "PROD-181",
+        "name": "Classic Stylus",
+        "description": "Classic stylus designed for optimal performance and daily use.",
+        "price": 214.01,
+        "discount_percent": 5.0,
+        "stock": 343,
+        "is_active": true,
+        "rating": 4.2,
+        "tags": [
+            "mobile",
+            "storage",
+            "office"
+        ],
+        "image_url": "https://example.com/images/stylus_81.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 15.2,
+            "height": 8.0,
+            "length": 12.1
+        }
+    },
+    {
+        "id": "104e5ab8-25a0-48f8-bf28-8d8879010515",
+        "sku": "PROD-182",
+        "name": "Portable Laptop Stand",
+        "description": "Portable laptop stand designed for optimal performance and daily use.",
+        "price": 361.81,
+        "discount_percent": 15.0,
+        "stock": 236,
+        "is_active": true,
+        "rating": 4.1,
+        "tags": [
+            "office",
+            "networking"
+        ],
+        "image_url": "https://example.com/images/laptop_stand_82.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 17.6,
+            "height": 3.5,
+            "length": 2.2
+        }
+    },
+    {
+        "id": "c648f99d-2954-4563-847f-37dcd7b5956a",
+        "sku": "PROD-183",
+        "name": "Classic Docking Station",
+        "description": "Classic docking station designed for optimal performance and daily use.",
+        "price": 187.82,
+        "discount_percent": 50.0,
+        "stock": 52,
+        "is_active": true,
+        "rating": 3.5,
+        "tags": [
+            "accessories",
+            "computing"
+        ],
+        "image_url": "https://example.com/images/docking_station_83.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 13.9,
+            "height": 5.7,
+            "length": 4.5
+        }
+    },
+    {
+        "id": "77fdf598-cc85-4f98-934d-b473f6b4f644",
+        "sku": "PROD-184",
+        "name": "Bluetooth Mouse",
+        "description": "Bluetooth mouse designed for optimal performance and daily use.",
+        "price": 434.01,
+        "discount_percent": 0.0,
+        "stock": 343,
+        "is_active": true,
+        "rating": 3.6,
+        "tags": [
+            "computing",
+            "gaming",
+            "networking",
+            "office"
+        ],
+        "image_url": "https://example.com/images/mouse_84.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 7.6,
+            "height": 5.5,
+            "length": 3.8
+        }
+    },
+    {
+        "id": "eb6f0918-d5a9-4c24-a645-62c4f644c7c5",
+        "sku": "PROD-185",
+        "name": "Smart Stylus",
+        "description": "Smart stylus designed for optimal performance and daily use.",
+        "price": 482.42,
+        "discount_percent": 30.0,
+        "stock": 233,
+        "is_active": true,
+        "rating": 4.7,
+        "tags": [
+            "peripherals",
+            "office",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/stylus_85.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 5.2,
+            "height": 0.7,
+            "length": 21.5
+        }
+    },
+    {
+        "id": "4dacd743-79f8-40e4-b0b2-4649bff2d8a6",
+        "sku": "PROD-186",
+        "name": "Mechanical Flash Drive",
+        "description": "Mechanical flash drive designed for optimal performance and daily use.",
+        "price": 285.33,
+        "discount_percent": 30.0,
+        "stock": 25,
+        "is_active": false,
+        "rating": 4.2,
+        "tags": [
+            "peripherals",
+            "storage"
+        ],
+        "image_url": "https://example.com/images/flash_drive_86.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 5.4,
+            "height": 7.4,
+            "length": 14.6
+        }
+    },
+    {
+        "id": "67ba2b9f-2d74-4732-aa78-94ceb069b194",
+        "sku": "PROD-187",
+        "name": "Digital Docking Station",
+        "description": "Digital docking station designed for optimal performance and daily use.",
+        "price": 218.45,
+        "discount_percent": 30.0,
+        "stock": 331,
+        "is_active": false,
+        "rating": 3.3,
+        "tags": [
+            "electronics",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/docking_station_87.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 17.8,
+            "height": 9.3,
+            "length": 21.6
+        }
+    },
+    {
+        "id": "bbaa6dc4-d1bf-42cc-9dc1-b1a5e46911e1",
+        "sku": "PROD-188",
+        "name": "Silent Monitor",
+        "description": "Silent monitor designed for optimal performance and daily use.",
+        "price": 26.22,
+        "discount_percent": 15.0,
+        "stock": 297,
+        "is_active": true,
+        "rating": 3.6,
+        "tags": [
+            "storage",
+            "office",
+            "peripherals"
+        ],
+        "image_url": "https://example.com/images/monitor_88.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 9.4,
+            "height": 13.5,
+            "length": 6.9
+        }
+    },
+    {
+        "id": "b3ed1404-605d-4d3e-8cb1-aa1129d90990",
+        "sku": "PROD-189",
+        "name": "Compact Docking Station",
+        "description": "Compact docking station designed for optimal performance and daily use.",
+        "price": 493.94,
+        "discount_percent": 5.0,
+        "stock": 296,
+        "is_active": true,
+        "rating": 4.0,
+        "tags": [
+            "networking",
+            "gaming",
+            "computing"
+        ],
+        "image_url": "https://example.com/images/docking_station_89.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 6.3,
+            "height": 12.2,
+            "length": 22.5
+        }
+    },
+    {
+        "id": "e39b963a-16b3-4a9b-bd66-f6e3c5bdd567",
+        "sku": "PROD-190",
+        "name": "Silent Power Bank",
+        "description": "Silent power bank designed for optimal performance and daily use.",
+        "price": 62.82,
+        "discount_percent": 15.0,
+        "stock": 332,
+        "is_active": true,
+        "rating": 4.1,
+        "tags": [
+            "accessories",
+            "office"
+        ],
+        "image_url": "https://example.com/images/power_bank_90.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 7.8,
+            "height": 12.5,
+            "length": 25.0
+        }
+    },
+    {
+        "id": "9df4ed03-9133-4007-a318-e844e124106d",
+        "sku": "PROD-191",
+        "name": "Wireless Keyboard",
+        "description": "Wireless keyboard designed for optimal performance and daily use.",
+        "price": 113.53,
+        "discount_percent": 5.0,
+        "stock": 15,
+        "is_active": true,
+        "rating": 3.8,
+        "tags": [
+            "accessories",
+            "peripherals"
+        ],
+        "image_url": "https://example.com/images/keyboard_91.jpg",
+        "seller": {
+            "id": "S2",
+            "name": "ElectroWorld",
+            "email": "hello@electroworld.in",
+            "website": "https://electroworld.in"
+        },
+        "dimension": {
+            "width": 6.5,
+            "height": 9.6,
+            "length": 21.0
+        }
+    },
+    {
+        "id": "8e644ff1-9861-44fb-a203-22069c69a4a4",
+        "sku": "PROD-192",
+        "name": "Premium Stylus",
+        "description": "Premium stylus designed for optimal performance and daily use.",
+        "price": 56.38,
+        "discount_percent": 20.0,
+        "stock": 171,
+        "is_active": true,
+        "rating": 3.3,
+        "tags": [
+            "storage",
+            "networking",
+            "gaming",
+            "peripherals"
+        ],
+        "image_url": "https://example.com/images/stylus_92.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 16.6,
+            "height": 10.5,
+            "length": 8.3
+        }
+    },
+    {
+        "id": "fae8cbe0-8309-4580-90d0-4b7ecf857a25",
+        "sku": "PROD-193",
+        "name": "RGB Laptop Stand",
+        "description": "RGB laptop stand designed for optimal performance and daily use.",
+        "price": 422.05,
+        "discount_percent": 50.0,
+        "stock": 141,
+        "is_active": true,
+        "rating": 3.1,
+        "tags": [
+            "audio",
+            "storage",
+            "peripherals",
+            "computing"
+        ],
+        "image_url": "https://example.com/images/laptop_stand_93.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 6.4,
+            "height": 12.9,
+            "length": 10.2
+        }
+    },
+    {
+        "id": "f7094ab3-04eb-492a-bf92-b2e148a24dee",
+        "sku": "PROD-194",
+        "name": "Heavy-Duty Docking Station",
+        "description": "Heavy-Duty docking station designed for optimal performance and daily use.",
+        "price": 217.44,
+        "discount_percent": 10.0,
+        "stock": 210,
+        "is_active": true,
+        "rating": 4.7,
+        "tags": [
+            "gaming",
+            "networking",
+            "storage",
+            "peripherals"
+        ],
+        "image_url": "https://example.com/images/docking_station_94.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 5.9,
+            "height": 11.9,
+            "length": 7.0
+        }
+    },
+    {
+        "id": "da29ae50-5103-4028-b386-33b9e1f7ff9a",
+        "sku": "PROD-195",
+        "name": "Bluetooth Speaker",
+        "description": "Bluetooth speaker designed for optimal performance and daily use.",
+        "price": 423.06,
+        "discount_percent": 25.0,
+        "stock": 444,
+        "is_active": true,
+        "rating": 3.2,
+        "tags": [
+            "electronics",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/speaker_95.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 2.5,
+            "height": 7.2,
+            "length": 2.1
+        }
+    },
+    {
+        "id": "4e5bff47-0f03-4e7d-8748-3b40496bb616",
+        "sku": "PROD-196",
+        "name": "Gaming Charger",
+        "description": "Gaming charger designed for optimal performance and daily use.",
+        "price": 223.41,
+        "discount_percent": 0.0,
+        "stock": 111,
+        "is_active": true,
+        "rating": 4.3,
+        "tags": [
+            "office",
+            "gaming"
+        ],
+        "image_url": "https://example.com/images/charger_96.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 19.2,
+            "height": 14.5,
+            "length": 12.4
+        }
+    },
+    {
+        "id": "0b6b10d3-8579-490c-b4cd-d7b5100b932f",
+        "sku": "PROD-197",
+        "name": "Ergonomic Docking Station",
+        "description": "Ergonomic docking station designed for optimal performance and daily use.",
+        "price": 119.19,
+        "discount_percent": 30.0,
+        "stock": 141,
+        "is_active": true,
+        "rating": 3.1,
+        "tags": [
+            "storage",
+            "office",
+            "networking"
+        ],
+        "image_url": "https://example.com/images/docking_station_97.jpg",
+        "seller": {
+            "id": "S5",
+            "name": "HP World",
+            "email": "support@hpworld.in",
+            "website": "https://hpworld.in"
+        },
+        "dimension": {
+            "width": 1.3,
+            "height": 12.3,
+            "length": 11.8
+        }
+    },
+    {
+        "id": "4003386b-7c88-47e0-955b-385654344f94",
+        "sku": "PROD-198",
+        "name": "Compact Headset",
+        "description": "Compact headset designed for optimal performance and daily use.",
+        "price": 488.98,
+        "discount_percent": 30.0,
+        "stock": 85,
+        "is_active": true,
+        "rating": 4.5,
+        "tags": [
+            "storage",
+            "office",
+            "audio",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/headset_98.jpg",
+        "seller": {
+            "id": "S3",
+            "name": "GamerZ",
+            "email": "contact@gamerz.net",
+            "website": "https://gamerz.net"
+        },
+        "dimension": {
+            "width": 13.6,
+            "height": 7.0,
+            "length": 24.8
+        }
+    },
+    {
+        "id": "da5ee8b5-37e6-4816-8caa-af321a538c40",
+        "sku": "PROD-199",
+        "name": "Smart Webcam",
+        "description": "Smart webcam designed for optimal performance and daily use.",
+        "price": 67.69,
+        "discount_percent": 5.0,
+        "stock": 169,
+        "is_active": true,
+        "rating": 3.2,
+        "tags": [
+            "mobile",
+            "electronics"
+        ],
+        "image_url": "https://example.com/images/webcam_99.jpg",
+        "seller": {
+            "id": "S1",
+            "name": "Tech Gadgets",
+            "email": "support@techgadgets.com",
+            "website": "https://techgadgets.com"
+        },
+        "dimension": {
+            "width": 14.7,
+            "height": 4.8,
+            "length": 11.8
+        }
+    },
+    {
+        "id": "9e368961-93b0-4b05-a414-ba67e4895d32",
+        "sku": "PROD-200",
+        "name": "Gaming Power Bank",
+        "description": "Gaming power bank designed for optimal performance and daily use.",
+        "price": 76.99,
+        "discount_percent": 0.0,
+        "stock": 88,
+        "is_active": true,
+        "rating": 3.7,
+        "tags": [
+            "office",
+            "mobile"
+        ],
+        "image_url": "https://example.com/images/power_bank_100.jpg",
+        "seller": {
+            "id": "S4",
+            "name": "Office Plus",
+            "email": "sales@officeplus.com",
+            "website": "https://officeplus.com"
+        },
+        "dimension": {
+            "width": 11.6,
+            "height": 6.3,
+            "length": 4.0
+        }
+    }
+]
