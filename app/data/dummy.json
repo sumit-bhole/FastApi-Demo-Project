@@ -1,0 +1,32 @@
+[
+  {
+    "id": "b3a00fe3-ab9d-4da2-8ca4-ca8001c34798",
+    "sku": "PROD-101",
+    "name": "Silent Router",
+    "description": "Silent router designed for optimal performance and daily use.",
+    "price": 52.75,
+    "discount_percent": 20.0,
+    "stock": 353,
+    "is_active": true,
+    "rating": 3.6,
+    "tags": [
+      "computing",
+      "gaming",
+      "mobile"
+    ],
+    "image_url": "https://example.com/images/router_1.jpg",
+    "seller": {
+      "id": "S4",
+      "name": "Office Plus",
+      "email": "sales@officeplus.com",
+      "website": "https://officeplus.com/"
+    },
+    "dimension": {
+      "width": 4.3,
+      "height": 14.1,
+      "length": 15.5,
+      "Volume": 939.76
+    },
+    "discounted_price": 42.2
+  }
+]
