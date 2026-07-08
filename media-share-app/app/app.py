@@ -1,81 +1,88 @@
-from fastapi import FastAPI, HTTPException
-from app.schema.post import Post, PostCreate, PostResponse
+from fastapi import FastAPI, HTTPException, File, UploadFile, Form, Depends
+from app.schema.post import PostCreate, PostResponse
 from typing import Optional, List, Dict
-
-app = FastAPI()
-
-text_posts = {
-    1: {
-        "title": "Morning Motivation",
-        "content": "Start your day with a positive mindset and a clear goal.",
-    },
-    2: {
-        "title": "Python Tips",
-        "content": "Use list comprehensions to write cleaner and more efficient code.",
-    },
-    3: {
-        "title": "FastAPI Basics",
-        "content": "FastAPI makes it easy to build high-performance REST APIs.",
-    },
-    4: {
-        "title": "Healthy Living",
-        "content": "Drink enough water and exercise regularly to stay healthy.",
-    },
-    5: {
-        "title": "Travel Diary",
-        "content": "Exploring new places helps you learn about different cultures.",
-    },
-    6: {
-        "title": "Book Recommendation",
-        "content": "Atomic Habits is a great book for building better daily routines.",
-    },
-    7: {
-        "title": "Tech News",
-        "content": "Artificial Intelligence continues to transform various industries.",
-    },
-    8: {
-        "title": "Photography",
-        "content": "Golden hour lighting can make your photos look stunning.",
-    },
-    9: {
-        "title": "Music Playlist",
-        "content": "Listening to relaxing music can improve your focus while working.",
-    },
-    10: {
-        "title": "Weekend Plans",
-        "content": "A short hike with friends is a perfect way to recharge.",
-    },
-}
+from app.db import Post, create_db_and_tables, get_async_session
+from sqlalchemy.ext.asyncio import AsyncSession
+from contextlib import asynccontextmanager
+from sqlalchemy import select
+from app.images import imagekit
+import shutil
+import os
+import uuid
+import tempfile
+from imagekitio.models.UploadFileRequestOptions import UploadFileRequestOptions
 
 
-@app.get("/posts")
-def get_all_posts(limit: Optional[int] = None) -> Dict:
-    if limit is not None:
-        posts = list(text_posts.values())[:limit]
-        return posts
-    return text_posts
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    await create_db_and_tables()
+    yield
 
 
-@app.get("/post/{id}")
-def get_post_by_id(id: int) -> Dict:
-    if id not in text_posts:
-        raise HTTPException(status_code=404, detail="Post Not Found")
-    post = text_posts.get(id)
-    return post
+app = FastAPI(lifespan=lifespan)
 
 
-@app.post("/posts")
-def create_post(post: PostCreate) -> PostResponse:
-    post = text_posts[max(text_posts.keys()) + 1] = {
-        "title": post.title,
-        "content": post.content,
-    }
-    return post
+@app.post("/upload")
+async def upload_file(
+    file: UploadFile = File(...),
+    caption: str = Form(""),
+    session: AsyncSession = Depends(get_async_session),
+):
+    temp_file_path = None
+
+    try:
+        with tempfile.NamedTemporaryFile(
+            delete=False, suffix=os.path.splitext(file.filename)[1]
+        ) as temp_file:
+            temp_file_path = temp_file.name
+            shutil.copyfileobj(file.file, temp_file)
+
+        upload_result = imagekit.upload_file(
+            file=open(temp_file_path, "rb"),
+            file_name=file.filename,
+            options=UploadFileRequestOptions(
+                use_unique_file_name=True, tags=["backend-upload"]
+            ),
+        )
+
+        if upload_result.response_metadata.http_status_code == 200:
+            post = Post(
+                caption=caption,
+                url=upload_result.url,
+                file_type=(
+                    "video" if file.content_type.startswith("video/") else "image"
+                ),
+                file_name=upload_result.name,
+            )
+            session.add(post)
+            await session.commit()
+            await session.refresh(post)
+            return post
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+        pass
+
+    finally:
+        if temp_file_path and os.path.exists(temp_file_path):
+            os.unlink(temp_file_path)
+        file.file.close()
 
 
-@app.delete("/post/{id}")
-def delete_post(id: int) -> Dict:
-    if id not in text_posts.keys():
-        raise HTTPException(status_code=404, detail="Post Not Found")
-    post = text_posts.pop(id)
-    return post
+@app.get("/feed")
+async def get_feed(session: AsyncSession = Depends(get_async_session)):
+    result = await session.execute(select(Post).order_by(Post.created_at.desc()))
+    posts = [row[0] for row in result.all()]
+    posts_data = []
+    for post in posts:
+        posts_data.append(
+            {
+                "id": post.id,
+                "caption": post.caption,
+                "url": post.url,
+                "file_type": post.file_type,
+                "File_name": post.file_name,
+                "created_at": post.created_at.isoformat(),
+            }
+        )
+
+        return {"posts": posts_data}
